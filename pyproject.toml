@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ai_music"
+version = "0.1.0"
+description = ""
+authors = ["filip <fdragovic@gmail.com>, vasilije <vas.markovic@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+numpy = "^1.21.5"
+# try 1
+scipy = "^1.7.3"
+audio2numpy = "^0.1.2"
+# try 2
+librosa = "^0.8.1"
+SoundFile = "^0.10.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.12b0"
+nb-black = "^1.0.7"
+jupyterlab = "^3.2.5"
+matplotlib = "^3.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
