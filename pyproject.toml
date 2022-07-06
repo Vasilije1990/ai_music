@@ -13,6 +13,8 @@ audio2numpy = "^0.1.2"
 # try 2
 librosa = "^0.8.1"
 SoundFile = "^0.10.3"
+pandas = "^1.4.0"
+ffmpeg-python = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -20,6 +22,9 @@ black = "^21.12b0"
 nb-black = "^1.0.7"
 jupyterlab = "^3.2.5"
 matplotlib = "^3.5.1"
+# ipy matplotlib
+ipympl = "^0.8.7"
+jupyterlab-vim = "^0.15.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
